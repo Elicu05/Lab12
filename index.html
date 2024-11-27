@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Contactos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestor de Contactos</h1>
+    </header>
+
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Nombre" required />
+        <input type="tel" id="phone" placeholder="Teléfono" required />
+        <input type="email" id="email" placeholder="Correo Electrónico" required />
+        <input type="text" id="address" placeholder="Dirección" />
+        <button type="submit">Guardar Contacto</button>
+    </form>
+
+    <div id="contact-list"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
